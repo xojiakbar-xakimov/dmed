@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .logo {
@@ -35,16 +35,17 @@ body {
 }
 
 .logo-image {
-    height: 60px;
+    height: 45px;
     width: auto;
 }
 
 .language-selector {
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 8px 12px;
-    border-radius: 8px;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
     background: white;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -54,17 +55,13 @@ body {
 
 
 
-.flag-icon {
-    width: 24px;
-    height: 18px;
-    border-radius: 2px;
-    overflow: hidden;
-}
+
 
 .language-text {
     font-size: 14px;
     color: #64748b;
     font-weight: 500;
+    display: none;
 }
 
 /* Main Content */
@@ -85,6 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -92,16 +90,17 @@ body {
     display: flex;
     gap: 16px;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .pin-input {
-    width: 60px;
-    height: 60px;
-    border: 2px solid #e2e8f0;
+    width: 80px;
+    height: 47px;
+    border: 1px solid rgba(224, 222, 222, 0.897);
     border-radius: 12px;
     text-align: center;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     color: #1e293b;
     background: white;
     transition: all 0.2s;
@@ -114,25 +113,25 @@ body {
 }
 
 .pin-input:not(:placeholder-shown) {
-    border-color: #9ca3af;
+    border-color: rgb(201, 199, 199);
     background-color: #f9fafb;
 }
 
 .open-btn {
-    width: 200px;
-    height: 50px;
-    background: #e2e8f0;
+    padding: 20px 200px;
+    background: rgba(245, 245, 245);
     color: #94a3b8;
     border: none;
     border-radius: 12px;
     font-size: 16px;
+    border: 1px solid rgba(214, 214, 214);
     font-weight: 600;
     cursor: not-allowed;
     transition: all 0.3s;
 }
 
 .open-btn:not(:disabled) {
-    background: #3b82f6;
+    background: rgba(245, 245, 245);
     color: white;
     cursor: pointer;
 }
@@ -171,12 +170,18 @@ body {
     .container {
         padding: 16px;
     }
-    
+    .title{
+        font-size: 24px;
+    }
 
     
     .logo-image {
         height: 50px;
     }
+
+    .open-btn {
+    padding: 20px 150px;
+}
     
     .title {
         font-size: 24px;

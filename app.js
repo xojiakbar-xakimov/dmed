@@ -4,7 +4,6 @@ const translations = {
         title: 'Введите PIN-код для просмотра документа',
         openBtn: 'Открыть',
         helpText: 'PIN-код размещается рядом с QR-кодом документа',
-        languageText: 'Русский',
         flag: `<rect width="24" height="6" fill="#ffffff"/>
                <rect y="6" width="24" height="6" fill="#0052b4"/>
                <rect y="12" width="24" height="6" fill="#d80027"/>`,
@@ -16,7 +15,6 @@ const translations = {
         title: 'Hujjatni ko\'rish uchun PIN-kodni kiriting',
         openBtn: 'Ochish',
         helpText: 'PIN-kod hujjatdagi QR-kod yonida joylashgan',
-        languageText: 'O\'zbek',
         flag: `<image href="images.png" width="24" height="18"/>`,
         loading: 'Yuklanmoqda...',
         success: 'Hujjat muvaffaqiyatli ochildi!',
@@ -26,7 +24,6 @@ const translations = {
         title: 'Enter PIN code to view document',
         openBtn: 'Open',
         helpText: 'PIN code is located next to the QR code of the document',
-        languageText: 'English',
         flag: `<rect width="24" height="18" fill="#012169"/>
                <path d="M0 0l24 18M24 0L0 18" stroke="#ffffff" stroke-width="2"/>
                <path d="M0 0l24 18M24 0L0 18" stroke="#c8102e" stroke-width="1"/>
